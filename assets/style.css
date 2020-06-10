@@ -1,4 +1,15 @@
 /* header */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    background: url(My_Portfolio\images\geometric-leaves\geometric-leaves.png);
+    width: 960 px;
+}
 #top{
   border-bottom: 3px solid #cccccc;;
 }
@@ -12,7 +23,10 @@
   text-align: center;
   float: left;
   width: 220 px;
+  height: 80 px;
   padding: 28px 18px;
+  text-decoration: none;
+  margin-left: 12.5%;
 }
 
 .navbar_nav {
