@@ -144,3 +144,29 @@ footer {
   /* end of styling for contact */
 
 /* media break points */
+@media screen and (max-width: 640px) {
+  .site {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .site {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .site {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+    margin-top: 40px;
+  }
+}
