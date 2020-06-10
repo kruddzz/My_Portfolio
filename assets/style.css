@@ -1,6 +1,7 @@
 body {
 	margin: 0 auto;
-	padding: 0;
+  padding: 0;
+  border: 1px solid #dddddd;
   }
   
   .bg-light {
@@ -35,7 +36,7 @@ body {
   .navbar-light .navbar-brand {
 	color: #ffffff;
 	font-family: Georgia, "Times New Roman", Times, Serif;
-	font-size: 32px;
+	font-size: 30px;
   font-weight: bold;
   background-color: #4aaaa5;
   }
@@ -51,7 +52,7 @@ body {
 		}
   
   .nav-item a {
-	font-size: 20px;
+	font-size: 14px;
   }
   /* end header/navbar */
 	/* main */
@@ -62,12 +63,12 @@ body {
   
   .card-title {
 	color: #4aaaa5;
-	font-weight: bold;
+  font-weight: bold;
+  font-size: 24px;
   }
 
   .card-text {
 	line-height: 1.5;
-	font-size: 16px;
   }
   
   .floating-img {
@@ -126,3 +127,23 @@ footer {
   width: 361px
   }
   /* end of styling for portfolio page */
+  /* styling for contact.html */
+  
+  .form-group input,
+  .form-group textarea {
+	/* gets rid of rounded preset */
+	border-radius: 0;
+  }
+  
+  .form-group label {
+	font-size: 20px;
+  }
+  
+  .btn-primary {
+	background-color: #4aaaa5;
+	border: none;
+	/* gets rid of rounded preset */
+  border-radius: 0;
+  
+  }
+  /* end of styling for contact */
