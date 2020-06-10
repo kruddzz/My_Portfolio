@@ -8,7 +8,7 @@ body {
   }
   
   .bg-light {
-	  background: url(".../images/geometric-leaves/geometric-leaves.png?raw=true)";
+	  background: url("../images/geometric-leaves/geometric-leaves.png?raw=true");
 		background-repeat: repeat;
   }
   
