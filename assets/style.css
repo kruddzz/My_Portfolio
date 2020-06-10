@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+
 body {
 	margin: 0 auto;
   padding: 0;
@@ -97,8 +95,8 @@ footer {
 
 /* styling for portfolio page ***/
   
-.portfolio-overlay {
-  position: sticky;
+  .portfolio_overlay {
+  position: relative;
   background-color: #4aaaa5;
   height: 40px;
   line-height: 40px;
@@ -121,7 +119,7 @@ footer {
   align-content: flex-end;
   padding: 16 px;
   z-index: 1000;
-  width: 360px
+  width: 361px
   }
   /* end of styling for portfolio page */
   /* styling for contact.html */
