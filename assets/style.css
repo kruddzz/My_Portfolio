@@ -30,7 +30,7 @@ main {
 
   /* Haeder/Navbar */
 
-  #name {
+  #myName {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 28px;
     font-weight: bold;
@@ -124,7 +124,17 @@ p {
 
 
 /* styling for portfolio page ***/
-  
+.port-image {
+  margin: 20px auto;
+}
+
+.portfolio-text {
+  background-color: #59AAA5;
+  bottom: 90px;
+  color: #eeeeee;
+  padding: 15px;
+  width: 100%;
+}
   .portfolio_overlay {
   position: static;
   background-color: #4aaaa5;
@@ -154,22 +164,23 @@ p {
   /* end of styling for portfolio page */
   /* styling for contact.html */
   
-  .form-group input,
-  .form-group textarea {
-	/* gets rid of rounded preset */
-	border-radius: 0;
+  .form-control {
+    border-radius: 0;
+    min-width: 100%;
+    max-width: 100%;
   }
   
-  .form-group label {
-	font-size: 20px;
+  .submit-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #fff;
+    background-color: #4aaaa5;
+    border: 0;
   }
   
-  .btn-primary {
-	background-color: #4aaaa5;
-	border: none;
-	/* gets rid of rounded preset */
-  border-radius: 0;
-  
+  .submit-btn:hover {
+    opacity: .7;
   }
   /* end of styling for contact */
 

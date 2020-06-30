@@ -5,6 +5,8 @@
   <meta charset="UTF-8">
   <!-- meta set viewpoint for all platforms -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
   <title>Kyle Ruderforth Portfolio</title>
   <!-- link to bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
@@ -18,93 +20,92 @@
 <body class="site bg-light">
 
   <!-- navigation bar -->
-  <header class="container-fluid navigation-container">
+  <header class="navbar navbar-expand-lg navbar-light bg-light p-0 fixed-top">
     <div class="container">
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-        <a class="navbar-brand brand-name" href="index.html">Kyle Rudderforth</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navigation Menu items -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link pl-4" href="index.html">About | </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-4" href="portfolio.html">Portfolio | <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-4" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <a class="navbar-brand text-center" href="index.html" id="myName">Kyle Rudderforth</a>
+      <div id="navBarToggler">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 flex-row justify-content-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About | </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio | <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
   <!-- end header and navbar -->
 
   <!-- begin main -->
-  <div class="container main-content-container">
-    <!-- row with 2 col for all of the site's information -->
-    <div class="row mt-lg-5 mt-md-4 mt-sm-3 mt-xs-3 content-row">
-      <div class="col-md-8 col-xl-9">
-        <div class="card mb-4">
-          <div class="card-body">
-            <h3 class="card-title">Contact</h3>
-            <hr class="p-2">
-            <form method="POST"></form>
-            <div class="form-group">
-              <label for="formGroupExampleInput">Name</label>
-              <input type="text" name="name" class="form-control" id="formGroupExampleInput">
+  <main class="container">
+    <section class="main position-relative">
+      <div class="col-md-9">
+        <form class="block form-horizontal">
+          <h1 class="block-header">Contact</h1>
+          <hr />
+          <div class="form-group">
+            <label for="name" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+              <input type="email" class="form-control" id="name" placeholder="Name">
             </div>
-            <div class="form-group">
-              <label for="exampleInputEmail1">Email</label>
-              <input type="email" name="email" class="form-control" id="exampleInputEmail1"
-                aria-describedby="emailHelp">
-              <small id="emailHelp" class="form-text"></small>
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea class="form-control" id="exampleFormControlTextarea1" name="message" rows="5"></textarea>
-            </div>
-            <button type="submit" class="btn btn-md btn-primary">Submit</button>
-          
           </div>
-        </div>
+          <div class="form-group">
+            <label for="email" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+              <input type="password" class="form-control" id="email" placeholder="Email">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="col-sm-2 control-label" for="msg">Message</label>
+            <div class="col-sm-10">
+              <textarea id="msg" class="form-control" rows="3" placeholder="Message"></textarea>
+            </div>
+          </div>
+          <button class="submit-btn">Submit</button>
+        </form>
       </div>
+    </section>
       <!-- end main -->
       <!-- begin aside -->
-      <div class="col-md-4 col-xl-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Connect with me</h5>
-            <hr>
-            <div class="row">
-              <div class="col media-icons-col d-flex justify-content-around">
-                <a href="https://github.com/settings/profile"> <img src="images/GitHub_Mark.png"
-                    class="img-fluid img-responsive p-1" alt="Github Icon" height="60" width="60"></a>
-                <a href="https://www.linkedin.com/in/kyle-rudderforth-4166251ab/"> <img src="images/linkedin.png"
-                    class="img-fluid img-responsive p-1" alt="LinkedIn Icon" height="60" width="60"></a>
-                <a href="https://stackoverflow.com/users/13655745/kyle-rudderforth"> <img
-                    src="images/stack_overflow.png" class="img-fluid img-responsive p-1" alt="Stack Overflow Icon"
-                    height="60" width="60"></a>
-              </div>
+    <!-- begin connect with me -->
+    <aside class="aside position-relative">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Connect with me</h5>
+          <hr>
+          <div class="row">
+            <div class="col media-icons-col d-flex justify-content-around">
+              <a href="https://github.com/settings/profile"> <img src="images/GitHub_Mark.png"
+                  class="img-fluid img-responsive p-1" alt="Github Icon" height="60" width="60"></a>
+              <a href="https://www.linkedin.com/in/kyle-rudderforth-4166251ab/"> <img src="images/linkedin.png"
+                  class="img-fluid img-responsive p-1" alt="LinkedIn Icon" height="60" width="60"></a>
+              <a href="https://stackoverflow.com/users/13655745/kyle-rudderforth"> <img
+                  src="images/stack_overflow.png" class="img-fluid img-responsive p-1" alt="Stack Overflow Icon"
+                  height="60" width="60"></a>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </aside>
+</main>
+<!-- end aside -->
+<!-- begin footer -->
+<footer class="footer w-100 h-10 fixed-bottom">
+  <div class="h-1 pt-1 two-toned-footer-color"></div>
+  <p class="text-white text-center p-3">
+    &copy; Copyright 2018 Kyle Rudderforth
+  </p>
+</footer>
+<!-- end footer -->
 
-    <!-- end aside -->
-    <!-- begin footer -->
-    <footer class="mt-5 mb-0 site-footer">
-      <p class="mb-0">&copy; Copyright</p>
-    </footer>
-
-    <!-- end footer -->
-  </div>  
+<!-- jQuery CDN -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Bootstrap CDN -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
