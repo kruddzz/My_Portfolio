@@ -103,9 +103,6 @@ p {
   padding: 0
 }
    
-
-
-
 /* styling for portfolio page ***/
 .port-image {
   margin: 20px auto;
@@ -117,13 +114,12 @@ p {
   color: #eeeeee;
   padding: 15px;
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.9; 
 }
 
-  
-  .card-img-overlay:hover {
+.card-img-overlay:hover {
   transform: rotate(-4deg) scale(1.1, 1.1);
-  }
+}
   
   .card-img-overlay {
   display: flex;
