@@ -134,18 +134,9 @@ p {
   color: #eeeeee;
   padding: 15px;
   width: 100%;
-}
-  .portfolio_overlay {
-  position: static;
-  background-color: #4aaaa5;
-  height: 40px;
-  line-height: 40px;
-  margin-bottom: 0;
-  margin-top: 0;
-  text-align: center;
-  width: 100%;
   opacity: 0.9;
-  }
+}
+
   
   .card-img-overlay:hover {
   transform: rotate(-4deg) scale(1.1, 1.1);
@@ -153,14 +144,9 @@ p {
   
   .card-img-overlay {
   display: flex;
-  top: -60px;
-  justify-content: center;
-  align-items: flex-end;
-  align-content: flex-end;
+   align-items: flex-end;
   padding: 16px;
-  z-index: 1000;
-  width: 361px
-  }
+}
   /* end of styling for portfolio page */
   /* styling for contact.html */
   
@@ -174,7 +160,7 @@ p {
     padding: 15px 30px;
     font-size: 16px;
     font-weight: lighter;
-    color: #fff;
+    color: #ffffff;
     background-color: #4aaaa5;
     border: 0;
   }

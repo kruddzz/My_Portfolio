@@ -4,117 +4,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kyle Ruderforth Portfolio</title>
   <!-- link to bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/reset.css">
+
   <!-- link to style .css -->
   <link rel="stylesheet" href="assets/style.css">
 </head>
 
 
-<body class="site bg-light">
-
-  <!-- navigation bar -->
-  <header class="container-fluid navigation-container">
+<body>
+  <header class="navbar navbar-expand-lg navbar-light bg-light p-0 fixed-top">
     <div class="container">
-      <nav class="navbar sticky-top navbar-expand-lg navbar-light">
-        <a class="navbar-brand brand-name" href="index.html">Kyle Rudderforth</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <!-- Navigation Menu items -->
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link pl-4" href="index.html">About | </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-4" href="portfolio.html">Portfolio | <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link pl-4" href="contact.html">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+      <a class="navbar-brand text-center" href="index.html" id="myName">Kyle Rudderforth</a>
+      <div id="navBarToggler">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0 flex-row justify-content-center">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About | </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio | <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </header>
   <!-- end header and navbar -->
 
   <!-- begin main -->
-  <div class="container main-content-container">
-    <!-- row with 2 col for all of the site's information -->
-    <div class="row mt-lg-5 mt-md-4 mt-sm-3 mt-xs-3 content-row">
-      <!-- main column for portfolio -->
-      <div class="col-md-8 col-xl-9">
-        <div class="card mb-4 text-white">
-          <div class="card-body">
-            <h3 class="card-title">Portfolio</h3>
-            <hr>
-            <div class="row mt-4">
-              <div class="col-md-6 mb-md-4 mb-sm-4 portfolio-col">
+  <main class="container main-content-container">
+    <section class="main position-relative">
+      <h1 class="main-header">Portfolio</h1>
+      <hr/>
+      <div class="row">
+        <div class="row">
+          <div class="custom-col col-12 col-sm-6">
+            <a href="https://kruddzz.github.io/Web_Accessibility/"> 
+              <img class="img-fluid port-image" src="images/Dream_Catcher.jpg" style="width:330px;height:200px;alt="Dream_Catcher">
+            </a>
+                  <div class="card-img-overlay">
+                    <p class="portfolio-text text-center position-relative">Horiseon Site Refactor</p>
+                  </div>
+              
+          </div>
+          <div class="custom-col col-12 col-sm-6">
                 <a href="https://kruddzz.github.io/Web_Accessibility/"> 
-                      <img src="images/Dream_Catcher.jpg" style="width:330px;height:200px;" 
-                      alt="Dream_Catcher">
+                      <img class="img-fluid port-image" src="images/Dream_Catcher.jpg" style="width:330px;height:200px;alt="Dream_Catcher">
                   <div class="card-img-overlay">
-                    <h5 class="portfolio_overlay text-white text-secondary">Horiseon Site Refactor</h5>
+                    <p class="portfolio-text text-center position-relative">Horiseon Site Refactor</p>
                   </div>
                 </a>
-              </div>
-              <div class="col-md-6 mb-md-4 mb-sm-4 portfolio-col">
-                <a href="#">
-                  <img src="images/Island.jpg" style="width:330px;height:200px;"
-                  alt="Island">
-                  <div class="card-img-overlay">
-                    <h5 class="portfolio_overlay text-white text-secondary">Comming Soon</h5>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-6 mb-md-4 mb-sm-4 portfolio-col">
-                <a href="#">
-                  <img src="images/Jelly_Fish.jpg" style="width:330px;height:200px;"
-                  alt="Jelly_Fish">
-                  <div class="card-img-overlay">
-                    <h5 class="portfolio_overlay text-white text-secondary">Coming Soon</h5>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-6 mb-md-4 mb-sm-4 portfolio-col">
-                <a href="#">
-                  <img src="images/Northern_Lights.jpg" style="width:330px;height:200px;"
-                  alt="Northern_Lights">
-                  <div class="card-img-overlay">
-                    <h5 class="portfolio_overlay text-white text-secondary">Coming Soon</h5>
-                  </div>
-
-                </a>
-              </div>
-            </div>
-            <div class="row mt-4">
-              <div class="col-md-6 mb-md-4 mb-sm-4 portfolio-col">
-                <a href="#">
-                  <img src="images/sky.jpg" style="width:330px;height:200px;"
-                  alt="sky">
-                  <div class="card-img-overlay">
-                    <h5 class="portfolio_overlay text-white text-secondary">Coming Soon</h5>
-                  </div>
-
-                </a>
-              </div>
-              <div class="col-md-6 mb-md-4 mb-sm-4 portfolio-col">
-              </div>
-            </div>
           </div>
         </div>
-      </div>
+      </div>    
+    </section>      
       <!-- end main -->
       <!-- begin aside -->
-      <div class="col-md-4 col-xl-3">
+      <aside class="aside position-relative">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Connect with me</h5>
@@ -132,17 +83,22 @@
             </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-
+      </aside>
+  </main>
   <!-- end aside -->
   <!-- begin footer -->
-  <footer class="mt-5 mb-0 site-footer">
-    <p class="mb-0">&copy; Copyright Sheima Gholami 2018</p>
+  <footer class="footer w-100 h-10 fixed-bottom">
+    <div class="h-1 pt-1 two-toned-footer-color"></div>
+    <p class="text-white text-center p-3">
+      &copy; Copyright 2018 Kyle Rudderforth
+    </p>
   </footer>
   <!-- end footer -->
-
+  
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
