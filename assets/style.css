@@ -23,7 +23,7 @@ main {
 }
 
 .main-header {
-  color: #4aaaa5;
+  color: #FF715B;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 }
@@ -35,13 +35,13 @@ main {
     font-size: 28px;
     font-weight: bold;
     color: #ffffff;
-    background: #4aaaa5;
+    background: #FF715B;
     padding: 20px 60 px;
   }
 
   
 .navbar-default .navbar-nav > li > a:hover {
-  color: #4aaaa5;
+  color: #FF715B;
 }
 
 .navbar {
@@ -72,11 +72,11 @@ main {
 
 /* footer */
 .footer {
-  background-color: #666666;
+  background-color: #1EA896;
 }
 
 .two-toned-footer-color{
-  background-color: #4aaaa5;
+  background-color: #FF715B;
 }
 /* end footer */
 /* end main style for all pages */
@@ -87,7 +87,7 @@ main {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 32px;
   font-weight: bold;
-  color: #4aaaa5;
+  color: #FF715B;
 }
 
 #port-image {
@@ -112,7 +112,7 @@ p {
 }
 
 .portfolio-text {
-  background-color: #59AAA5;
+  background-color: #FF715B;
   bottom: 90px;
   color: #eeeeee;
   padding: 15px;
@@ -144,7 +144,7 @@ p {
     font-size: 16px;
     font-weight: lighter;
     color: #ffffff;
-    background-color: #4aaaa5;
+    background-color: #FF715B;
     border: 0;
   }
   
